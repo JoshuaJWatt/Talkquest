@@ -46,8 +46,9 @@ class cha_cla
             cout << nam << " gained a level and is now level " << lvl << "!";
         }
         cout << endl << endl;
-        intera();
+        // intera();
     //    cout << "You have gained" << incr() << " experience points" << endl;
+    return(vo);
     };
 }cha;
 
@@ -57,6 +58,10 @@ int main ()
     cout << "Talkquest 0.1\n'I want a game that fufills my fantasy of rewarding all social interaction with no upkeep required.' - Conal\n\nEnter your name:"  << std::endl;
     cin >> cha.nam;
     cout << "\nElf Stranger: Hello " << cha.nam << ". How are you today?\n";
+
+    while(true){
     cout << cha.intera() << endl;
+    }
+
     return 1;
 }
