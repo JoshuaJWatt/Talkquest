@@ -55,7 +55,7 @@ class cha_cla
 
 int main ()
 {
-    cout << "Talkquest 0.1\n'I want a game that fufills my fantasy of rewarding all social interaction with no upkeep required.' - Conal\n\nEnter your name:"  << std::endl;
+    cout << "Talkquest 0.1.1 - Josh Edition \n'I want a game that fufills my fantasy of rewarding all social interaction with no upkeep required.' - Conal\n\nEnter your name:"  << std::endl;
     cin >> cha.nam;
     cout << "\nElf Stranger: Hello " << cha.nam << ". How are you today?\n";
 
